@@ -45,11 +45,13 @@
 }
 
 .app-header {
-  background: linear-gradient(to right, #7AC67D, #979E98);
+  background: linear-gradient(to right, #B8C6B9, #81C784);
   padding: 20px;
+  margin-top:20px;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  border-radius: 6px;
 }
 
 .main-container {
@@ -58,16 +60,22 @@
 
 .controls {
   display: flex;
-  justify-content: space-between;
+  float: right;
   margin-bottom: 20px;
 }
 
 .controls .btn {
   margin-left: 10px;
-  background: linear-gradient(to right, #7AC67D, #979E98);
 }
 
 .react-csv-input {
   display: inline-block;
   margin-right: 10px;
+  background: linear-gradient(to right, #B8C6B9, #81C784);
+  height: 45px;
+  border-radius: 5px;
+  padding-top:10px;
+}
+Table{
+  text-align: center;
 }
